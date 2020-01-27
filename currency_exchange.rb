@@ -63,7 +63,6 @@ module CurrencyExchange
 
     def prepare_rates
       data = cache_valid? ? cache : read_web
-
       JSON.parse(data)['Valute']
     rescue JSON::ParserError
       raise ExternalSourceError
