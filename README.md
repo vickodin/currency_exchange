@@ -16,6 +16,8 @@ https://en.wikipedia.org/wiki/ISO_4217#Active_codes
 
 *Real sample*:
 
+We want to exchange 1 "Turkish lira" ('try' code ) to "United States dollar" ('usd' code):
+
 `CurrencyExchange.convert(1, :try, :usd).round(2)`
 ` => 0.17`
 
