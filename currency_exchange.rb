@@ -15,8 +15,7 @@ module CurrencyExchange
   require 'json'
   require 'net/http'
 
-  # EXTERNAL_SOURCE = 'https://www.cbr-xml-daily.ru/daily_json.js'
-  EXTERNAL_SOURCE = 'https://dinodoc.ru/daily_json.js'
+  EXTERNAL_SOURCE = 'https://www.cbr-xml-daily.ru/daily_json.js'
 
   # We need it in case when we have deal with RUB currency:
   RUB_STRUCTURE = {
